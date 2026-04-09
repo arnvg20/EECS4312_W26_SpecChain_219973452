@@ -1,42 +1,104 @@
 # EECS4312_W26_SpecChain
 
-Application: Wysa
+## Application
+**Wysa** – Mental Health Support App
 
-Data Collection Method:
-- Reviews were collected from the Google Play Store using `python src/01_collect_or_import.py`
-- Reviews were cleaned using `python src/02_clean.py`
-- Cleaning included duplicate removal, punctuation and special character removal, stop-word removal, lowercase conversion, and lemmatization
+This project analyzes user reviews collected from the Google Play Store for the Wysa application.  
+The objective is to build and compare **manual**, **automated**, and **hybrid requirements engineering pipelines** for persona generation, software requirement specification, validation test generation, and metric comparison.
 
-Dataset:
-- reviews_raw.jsonl contains the collected reviews.
-- reviews_clean.jsonl contains the cleaned dataset.
-- The original dataset contains 5000 reviews.
-- The cleaned dataset contains 3927 reviews.
+---
 
-Repository Structure:
-- data/ contains datasets and review groups
-- personas/ contains persona files
-- spec/ contains specifications
-- tests/ contains validation tests
-- metrics/ contains all metric files
-- prompts/ contains the saved automated prompt
-- src/ contains executable Python scripts
-- reflection/ contains the final reflection
+## Data Collection Method
+- Reviews were collected from the Google Play Store using:
 
-Groq API Key Setup:
+```bash
+python src/01_collect_or_import.py
+```
+
+- Reviews were cleaned using:
+
+```bash
+python src/02_clean.py
+```
+
+Cleaning included:
+- duplicate removal
+- punctuation and special character removal
+- stop-word removal
+- lowercase conversion
+- lemmatization
+
+---
+
+## Dataset
+- `reviews_raw.jsonl` contains the collected raw reviews
+- `reviews_clean.jsonl` contains the cleaned dataset
+- Original dataset size: **5000 reviews**
+- Final cleaned dataset size: **3927 reviews**
+
+---
+
+## Repository Structure
+- `data/` → datasets and review groups
+- `personas/` → persona files
+- `spec/` → requirement specifications
+- `tests/` → validation tests
+- `metrics/` → all metric files
+- `prompts/` → saved automated prompt
+- `src/` → executable Python scripts
+- `reflection/` → final reflection
+
+---
+
+## Groq API Key Setup
 Before running the automated pipeline, set the Groq API key as an environment variable.
 
-For tcsh / csh:
-`setenv GROQ_API_KEY "your_groq_api_key"`
+For **tcsh / csh**:
 
-For bash / zsh:
-`export GROQ_API_KEY="your_groq_api_key"`
+```tcsh
+setenv GROQ_API_KEY "your_groq_api_key"
+```
 
-How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. set the GROQ_API_KEY environment variable
-4. python src/run_all.py
-5. python src/08_metrics.py
-6. python src/08_metrics.py hybrid
-7. Open metrics/metrics_summary.json for comparison results
+For **bash / zsh**:
+
+```bash
+export GROQ_API_KEY="your_groq_api_key"
+```
+
+---
+
+## How to Run
+
+### 1. Validate repository
+```bash
+python src/00_validate_repo.py
+```
+
+### 2. Clean dataset
+```bash
+python src/02_clean.py
+```
+
+### 3. Set the GROQ_API_KEY environment variable
+
+### 4. Run full automated pipeline
+```bash
+python src/run_all.py
+```
+
+### 5. Generate automated metrics
+```bash
+python src/08_metrics.py
+```
+
+### 6. Generate hybrid metrics
+```bash
+python src/08_metrics.py hybrid
+```
+
+### 7. View comparison results
+Open:
+
+```text
+metrics/metrics_summary.json
+```
