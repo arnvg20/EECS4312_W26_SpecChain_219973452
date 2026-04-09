@@ -1,22 +1,154 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Stressed Student",
+      "description": "A student user who uses Wysa during periods of anxiety, overthinking, and academic stress to improve emotional well-being.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Reduce anxiety and stress",
+        "Reframe negative thoughts",
+        "Improve emotional stability"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Frequent overthinking",
+        "Panic attacks",
+        "Negative thought cycles"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app during exam season",
+        "Seeking support late at night",
+        "Needs fast emotional relief"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Immediate access to support",
+        "Guidance must be easy to follow"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "0",
+        "19",
+        "57",
+        "241"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Sleep Support User",
+      "description": "A user who primarily relies on relaxation, meditation, and breathing exercises to improve sleep quality.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Sleep faster",
+        "Reduce night anxiety",
+        "Use breathing exercises"
+      ],
+      "pain_points": [
+        "Trouble sleeping",
+        "Night stress",
+        "Restlessness"
+      ],
+      "context": [
+        "Uses app before sleeping",
+        "Often active during late-night hours"
+      ],
+      "constraints": [
+        "Audio and meditation tools must work reliably",
+        "Quick access to sleep features"
+      ],
+      "evidence_reviews": [
+        "70",
+        "191",
+        "422",
+        "537"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Conversation Quality User",
+      "description": "A user who expects meaningful and context-aware AI conversations.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Receive intelligent responses",
+        "Maintain conversation context",
+        "Avoid repetition"
+      ],
+      "pain_points": [
+        "Repeated questions",
+        "Robotic responses",
+        "Lack of memory"
+      ],
+      "context": [
+        "Uses chatbot frequently",
+        "Often vents emotions through long chats"
+      ],
+      "constraints": [
+        "Conversation memory required",
+        "Responses should feel natural"
+      ],
+      "evidence_reviews": [
+        "27",
+        "35",
+        "144",
+        "240"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Budget Conscious User",
+      "description": "A user looking for affordable mental health support without aggressive premium upsells.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Access useful free features",
+        "Avoid unexpected charges"
+      ],
+      "pain_points": [
+        "Expensive subscription",
+        "Paywalls",
+        "Hidden charges"
+      ],
+      "context": [
+        "Uses free version only",
+        "May be a student or financially limited user"
+      ],
+      "constraints": [
+        "Transparent pricing",
+        "Essential features must remain accessible"
+      ],
+      "evidence_reviews": [
+        "83",
+        "119",
+        "460",
+        "606"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Reliability Focused User",
+      "description": "A user who depends on the app functioning smoothly without glitches or crashes.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Fast app performance",
+        "Reliable message loading",
+        "Stable user experience"
+      ],
+      "pain_points": [
+        "Crashes",
+        "Slow loading",
+        "Lost conversations"
+      ],
+      "context": [
+        "Uses the app multiple times per day",
+        "Accesses app on mobile devices"
+      ],
+      "constraints": [
+        "No crashes during active use",
+        "Messages must load within a few seconds"
+      ],
+      "evidence_reviews": [
+        "51",
+        "55",
+        "98",
+        "146"
+      ]
+    }
+  ]
+}
