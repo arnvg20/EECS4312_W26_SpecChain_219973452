@@ -1,16 +1,197 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Start breathing exercise",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open anxiety support section",
+        "Select breathing exercise",
+        "Press start"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "Breathing exercise starts within 2 seconds"
+    },
+    {
+      "test_id": "T2",
+      "requirement_id": "FR1",
+      "scenario": "Grounding tool access",
+      "steps": [
+        "Open support tools",
+        "Select grounding exercise"
+      ],
+      "expected_result": "Grounding session opens successfully"
+    },
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario": "Negative thought reframing",
+      "steps": [
+        "Enter a negative thought",
+        "Submit input"
+      ],
+      "expected_result": "System returns at least one positive reframing prompt"
+    },
+    {
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario": "Multiple reframing suggestions",
+      "steps": [
+        "Enter stress-related thought",
+        "Submit input"
+      ],
+      "expected_result": "System provides multiple coping suggestions"
+    },
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
+      "scenario": "Play sleep audio",
+      "steps": [
+        "Open sleep support",
+        "Select audio",
+        "Press play"
+      ],
+      "expected_result": "Sleep audio begins successfully"
+    },
+    {
+      "test_id": "T6",
+      "requirement_id": "FR3",
+      "scenario": "Pause and resume audio",
+      "steps": [
+        "Start audio",
+        "Pause",
+        "Resume"
+      ],
+      "expected_result": "Audio resumes from paused position"
+    },
+    {
+      "test_id": "T7",
+      "requirement_id": "FR4",
+      "scenario": "Relaxation tools visible",
+      "steps": [
+        "Open relaxation menu"
+      ],
+      "expected_result": "At least 3 tools are displayed"
+    },
+    {
+      "test_id": "T8",
+      "requirement_id": "FR4",
+      "scenario": "Tool navigation",
+      "steps": [
+        "Select breathing",
+        "Go back",
+        "Select mindfulness"
+      ],
+      "expected_result": "Both tools open correctly"
+    },
+    {
+      "test_id": "T9",
+      "requirement_id": "FR5",
+      "scenario": "Conversation context memory",
+      "steps": [
+        "Send initial message",
+        "Ask follow-up question"
+      ],
+      "expected_result": "Response references earlier message"
+    },
+    {
+      "test_id": "T10",
+      "requirement_id": "FR5",
+      "scenario": "Chat continuity",
+      "steps": [
+        "Send multiple related messages"
+      ],
+      "expected_result": "Chat remains context aware"
+    },
+    {
+      "test_id": "T11",
+      "requirement_id": "FR6",
+      "scenario": "Different prompts generate different responses",
+      "steps": [
+        "Enter sadness prompt",
+        "Enter stress prompt"
+      ],
+      "expected_result": "Responses are not repetitive"
+    },
+    {
+      "test_id": "T12",
+      "requirement_id": "FR6",
+      "scenario": "Repeated message handling",
+      "steps": [
+        "Enter same concern twice"
+      ],
+      "expected_result": "Response wording changes"
+    },
+    {
+      "test_id": "T13",
+      "requirement_id": "FR7",
+      "scenario": "Pricing visibility",
+      "steps": [
+        "Open premium page"
+      ],
+      "expected_result": "Price and billing period shown clearly"
+    },
+    {
+      "test_id": "T14",
+      "requirement_id": "FR7",
+      "scenario": "Payment page check",
+      "steps": [
+        "Proceed to payment"
+      ],
+      "expected_result": "No hidden fees are present"
+    },
+    {
+      "test_id": "T15",
+      "requirement_id": "FR8",
+      "scenario": "Free feature access",
+      "steps": [
+        "Login as free user"
+      ],
+      "expected_result": "At least one support tool available"
+    },
+    {
+      "test_id": "T16",
+      "requirement_id": "FR8",
+      "scenario": "Restricted premium feature",
+      "steps": [
+        "Try locked feature"
+      ],
+      "expected_result": "Free tools remain accessible"
+    },
+    {
+      "test_id": "T17",
+      "requirement_id": "FR9",
+      "scenario": "Message response speed",
+      "steps": [
+        "Send chatbot message"
+      ],
+      "expected_result": "Reply loads within 2 seconds"
+    },
+    {
+      "test_id": "T18",
+      "requirement_id": "FR9",
+      "scenario": "Multiple rapid messages",
+      "steps": [
+        "Send 5 quick messages"
+      ],
+      "expected_result": "All replies load without delay"
+    },
+    {
+      "test_id": "T19",
+      "requirement_id": "FR10",
+      "scenario": "Continuous session stability",
+      "steps": [
+        "Use app continuously for 10 minutes"
+      ],
+      "expected_result": "Application remains stable"
+    },
+    {
+      "test_id": "T20",
+      "requirement_id": "FR10",
+      "scenario": "Feature switching stability",
+      "steps": [
+        "Switch between 5 features"
+      ],
+      "expected_result": "No crash occurs"
     }
   ]
 }
