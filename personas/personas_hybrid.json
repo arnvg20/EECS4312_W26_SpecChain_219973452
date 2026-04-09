@@ -2,30 +2,133 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "name": "Emma",
+      "description": "A university student who uses the app for emotional support during periods of stress, anxiety, and negative thought cycles.",
+      "derived_from_group": 1,
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Manage stress and anxiety",
+        "Receive judgment-free emotional support"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Overthinking",
+        "Negative thoughts",
+        "Difficulty finding reliable support"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Uses the app during exam periods",
+        "Seeks support late at night"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Support must be private",
+        "Affordable access is important"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "helped process negative mindset",
+        "actually could talk one judged helped"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined the description to better align with student stress and anxiety use cases."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Ryan",
+      "description": "A working professional who experiences frustration due to technical issues and chatbot usability problems.",
+      "derived_from_group": 2,
+      "goals": [
+        "Resolve technical issues",
+        "Receive quick and effective support"
+      ],
+      "pain_points": [
+        "App crashes",
+        "Ignored responses",
+        "Intrusive intake process"
+      ],
+      "context": [
+        "Uses the app during work-related stress",
+        "Needs fast issue-free support"
+      ],
+      "constraints": [
+        "Limited available time",
+        "Low tolerance for app instability"
+      ],
+      "evidence_reviews": [
+        "app crashes and ignores responses",
+        "intake process frustrating and intrusive"
+      ],
+      "notes": "Removed vague assumptions and focused on usability and reliability issues."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Mia",
+      "description": "A satisfied user who values the app’s support features and frequently recommends it to others.",
+      "derived_from_group": 3,
+      "goals": [
+        "Continue receiving helpful support",
+        "Recommend the app to peers"
+      ],
+      "pain_points": [
+        "Wants continued free access",
+        "Needs consistent support quality"
+      ],
+      "context": [
+        "Uses the app for self-care and emotional check-ins"
+      ],
+      "constraints": [
+        "Prefers free or low-cost support"
+      ],
+      "evidence_reviews": [
+        "free unlike other apps",
+        "helpful app talk support"
+      ],
+      "notes": "Refined to focus on satisfaction and recommendation behavior."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "David",
+      "description": "A user who compares this app with alternative support services and evaluates relative quality.",
+      "derived_from_group": 4,
+      "goals": [
+        "Compare support effectiveness",
+        "Find the most helpful service"
+      ],
+      "pain_points": [
+        "Feels conversations are repetitive",
+        "Compares against alternatives"
+      ],
+      "context": [
+        "Uses multiple emotional support platforms"
+      ],
+      "constraints": [
+        "Needs meaningful conversations"
+      ],
+      "evidence_reviews": [
+        "feels like talking in circles"
+      ],
+      "notes": "Improved persona grounding around comparison-driven feedback."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Sophia",
+      "description": "A user seeking expanded mental health tools and additional feature support.",
+      "derived_from_group": 5,
+      "goals": [
+        "Access more CBT tools",
+        "Use improved app functionality"
+      ],
+      "pain_points": [
+        "Limited features",
+        "Needs additional support tools"
+      ],
+      "context": [
+        "Uses the app regularly for self-improvement"
+      ],
+      "constraints": [
+        "Wants intuitive access to features"
+      ],
+      "evidence_reviews": [
+        "need more CBT tools",
+        "additional functionality desired"
+      ],
+      "notes": "Refined to better reflect feature request and enhancement needs."
     }
   ]
 }
