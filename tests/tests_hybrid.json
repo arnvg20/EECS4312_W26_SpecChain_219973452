@@ -3,14 +3,115 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Access support tools from dashboard",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Launch the app",
+        "Open the support dashboard",
+        "Count available support tools"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "At least 3 support tools are visible and selectable within 2 seconds.",
+      "notes": "Updated to match measurable dashboard tool requirement."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Free user accesses support feature",
+      "steps": [
+        "Login as non-premium user",
+        "Open support dashboard"
+      ],
+      "expected_result": "At least one support feature is accessible without payment.",
+      "notes": "Aligned with free-tier access requirement."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Anonymous access verification",
+      "steps": [
+        "Launch app",
+        "Skip login",
+        "Open support feature"
+      ],
+      "expected_result": "Support feature opens without requiring personal information.",
+      "notes": "Improved alignment with privacy requirement."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Continuous usage stability test",
+      "steps": [
+        "Use app continuously for 10 minutes",
+        "Switch between multiple support features"
+      ],
+      "expected_result": "The app remains stable and does not crash.",
+      "notes": "Refined to directly validate software stability."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Navigation step count",
+      "steps": [
+        "Launch app",
+        "Navigate to a primary support feature"
+      ],
+      "expected_result": "Feature is reachable within 3 clicks.",
+      "notes": "Rewritten for measurable usability validation."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Dashboard feature availability",
+      "steps": [
+        "Open support dashboard",
+        "Count available support tools"
+      ],
+      "expected_result": "At least 5 distinct support tools are visible.",
+      "notes": "Aligned with support tools requirement."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Submit comparison feedback",
+      "steps": [
+        "Navigate to feedback section",
+        "Complete feedback form",
+        "Submit"
+      ],
+      "expected_result": "Feedback is submitted successfully.",
+      "notes": "Refined to match comparison feedback feature."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Mandatory intake questions count",
+      "steps": [
+        "Launch app",
+        "Proceed through intake flow"
+      ],
+      "expected_result": "Support access is reached within 5 required questions.",
+      "notes": "Improved intake process measurability."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Evidence-based tools visibility",
+      "steps": [
+        "Open dashboard",
+        "Locate CBT and mindfulness tools"
+      ],
+      "expected_result": "At least one CBT and one mindfulness tool are visible.",
+      "notes": "Aligned with evidence-based support requirement."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "24-hour access validation",
+      "steps": [
+        "Access app at different times",
+        "Access from different network location"
+      ],
+      "expected_result": "System remains accessible and functional at all tested times.",
+      "notes": "Refined availability validation."
     }
   ]
 }
