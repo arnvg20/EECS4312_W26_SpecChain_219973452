@@ -23,10 +23,20 @@ Repository Structure:
 - src/ contains executable Python scripts
 - reflection/ contains the final reflection
 
+Groq API Key Setup:
+Before running the automated pipeline, set the Groq API key as an environment variable.
+
+For tcsh / csh:
+`setenv GROQ_API_KEY "your_groq_api_key"`
+
+For bash / zsh:
+`export GROQ_API_KEY="your_groq_api_key"`
+
 How to Run:
 1. python src/00_validate_repo.py
 2. python src/02_clean.py
-3. python src/run_all.py
-4. python src/08_metrics.py
-5. python src/08_metrics.py hybrid
-6. Open metrics/metrics_summary.json for comparison results
+3. set the GROQ_API_KEY environment variable
+4. python src/run_all.py
+5. python src/08_metrics.py
+6. python src/08_metrics.py hybrid
+7. Open metrics/metrics_summary.json for comparison results
