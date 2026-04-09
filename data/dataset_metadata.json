@@ -1,0 +1,19 @@
+{
+  "app_name": "Wysa",
+  "dataset_size": 5000,
+  "cleaned_dataset_size": 3927,
+  "collection_method": "google-play-scraper",
+  "cleaning_decisions": [
+    "removed duplicates",
+    "removed empty reviews",
+    "removed extremely short reviews",
+    "removed punctuation",
+    "removed special characters",
+    "removed emojis",
+    "converted numbers to text",
+    "removed extra whitespace",
+    "converted all words to lowercase",
+    "removed stop words",
+    "lemmatized reviews"
+  ]
+}
