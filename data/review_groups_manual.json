@@ -2,11 +2,48 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Anxiety stress and depression relief",
+      "review_ids": ["0", "19", "20", "22", "26", "28", "50", "57", "61", "241"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "helped process negative mindset",
+        "really helped turn negative thought positive mindset"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Sleep relaxation and meditation support",
+      "review_ids": ["32", "46", "70", "77", "121", "191", "422", "458", "537", "584"],
+      "example_reviews": [
+        "good really liked mindful breathing relaxation tool",
+        "trouble sleeping positive thought app helped lot"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Chatbot repetition and conversation memory issues",
+      "review_ids": ["27", "35", "53", "74", "95", "115", "144", "171", "240", "289"],
+      "example_reviews": [
+        "really good app would better remembers every conversation",
+        "slow unoptimized response feel robotic relevant said"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Subscription paywall and pricing complaints",
+      "review_ids": ["83", "89", "119", "238", "286", "305", "423", "455", "460", "606"],
+      "example_reviews": [
+        "subscription expensive",
+        "paywalled mentioned installed"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Technical bugs glitches and loading problems",
+      "review_ids": ["24", "51", "55", "63", "98", "123", "146", "322", "386", "532"],
+      "example_reviews": [
+        "downloaded two time time app work",
+        "take long load message"
       ]
     }
-  ]}
+  ]
+}
