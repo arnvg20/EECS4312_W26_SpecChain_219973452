@@ -1,10 +1,11 @@
 """generates structured specs from personas"""
 import json
+import os
 from groq import Groq
 
 MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 
-client = Groq(api_key="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")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 def load_personas():
