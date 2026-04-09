@@ -1,20 +1,17 @@
 # EECS4312_W26_SpecChain
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
+Application: Wysa
 
-# example
-Application: [Calm]
+Data Collection Method:
+- Reviews were collected from the Google Play Store using `python src/01_collect_or_import.py`
+- Reviews were cleaned using `python src/02_clean.py`
+- Cleaning included duplicate removal, punctuation and special character removal, stop-word removal, lowercase conversion, and lemmatization
 
 Dataset:
 - reviews_raw.jsonl contains the collected reviews.
 - reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- The original dataset contains 5000 reviews.
+- The cleaned dataset contains 3927 reviews.
 
 Repository Structure:
 - data/ contains datasets and review groups
@@ -22,6 +19,7 @@ Repository Structure:
 - spec/ contains specifications
 - tests/ contains validation tests
 - metrics/ contains all metric files
+- prompts/ contains the saved automated prompt
 - src/ contains executable Python scripts
 - reflection/ contains the final reflection
 
@@ -29,5 +27,6 @@ How to Run:
 1. python src/00_validate_repo.py
 2. python src/02_clean.py
 3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
-
+4. python src/08_metrics.py
+5. python src/08_metrics.py hybrid
+6. Open metrics/metrics_summary.json for comparison results
