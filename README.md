@@ -74,29 +74,36 @@ export GROQ_API_KEY="your_groq_api_key"
 python src/00_validate_repo.py
 ```
 
-### 2. Clean dataset
+### 2. Create manual coding template (optional helper)
+```bash
+python src/03_manual_coding_template.py
+```
+
+This generates a starter manual coding template file for manual review grouping.
+
+### 3. Clean dataset
 ```bash
 python src/02_clean.py
 ```
 
-### 3. Set the GROQ_API_KEY environment variable
+### 4. Set the GROQ_API_KEY environment variable
 
-### 4. Run full automated pipeline
+### 5. Run full automated pipeline
 ```bash
 python src/run_all.py
 ```
 
-### 5. Generate automated metrics
+### 6. Generate automated metrics
 ```bash
 python src/08_metrics.py
 ```
 
-### 6. Generate hybrid metrics
+### 7. Generate hybrid metrics
 ```bash
 python src/08_metrics.py hybrid
 ```
 
-### 7. View comparison results
+### 8. View comparison results
 Open:
 
 ```text
