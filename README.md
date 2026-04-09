@@ -81,29 +81,36 @@ python src/03_manual_coding_template.py
 
 This generates a starter manual coding template file for manual review grouping.
 
-### 3. Clean dataset
+### 3. Create manual persona template (optional helper)
+```bash
+python src/04_personas_manual.py
+```
+
+This generates a starter persona template file for manual persona creation.
+
+### 4. Clean dataset
 ```bash
 python src/02_clean.py
 ```
 
-### 4. Set the GROQ_API_KEY environment variable
+### 5. Set the GROQ_API_KEY environment variable
 
-### 5. Run full automated pipeline
+### 6. Run full automated pipeline
 ```bash
 python src/run_all.py
 ```
 
-### 6. Generate automated metrics
+### 7. Generate automated metrics
 ```bash
 python src/08_metrics.py
 ```
 
-### 7. Generate hybrid metrics
+### 8. Generate hybrid metrics
 ```bash
 python src/08_metrics.py hybrid
 ```
 
-### 8. View comparison results
+### 9. View comparison results
 Open:
 
 ```text
