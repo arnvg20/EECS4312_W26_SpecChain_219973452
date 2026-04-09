@@ -1,0 +1,119 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "name": "Emma",
+      "description": "A young adult seeking emotional support and guidance for managing stress and anxiety.",
+      "derived_from_group": 1,
+      "goals": [
+        "Find effective emotional support",
+        "Manage stress and anxiety"
+      ],
+      "pain_points": [
+        "Difficulty finding reliable support",
+        "Struggling with negative thoughts"
+      ],
+      "context": "Emma is a college student dealing with academic pressure and personal relationships.",
+      "constraints": [
+        "Limited budget",
+        "Prefers anonymous support"
+      ],
+      "evidence_reviews": [
+        "helped process negative mindset",
+        "actually could talk one judged helped"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ryan",
+      "description": "A frustrated user experiencing technical issues with the app.",
+      "derived_from_group": 2,
+      "goals": [
+        "Resolve technical issues",
+        "Find reliable support"
+      ],
+      "pain_points": [
+        "Frustrated with app functionality",
+        "Difficulty finding effective support"
+      ],
+      "context": "Ryan is a busy professional dealing with work-related stress.",
+      "constraints": [
+        "Limited time",
+        "Prefers straightforward support"
+      ],
+      "evidence_reviews": [
+        "tried half hour would ask question disregard response repeatedly asking wanted try grounding technique get blown enough living need ignored app lol",
+        "intake process service frustratingly rigid intrusive demand personal data nothing clinical care forced select list confusing label could even access help exit app option decline unnecessary question goal mental health support stop creating barrier based personal belief major hurdle want straightforward medical assistance"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mia",
+      "description": "A user who appreciates the app's features and recommends it to others.",
+      "derived_from_group": 3,
+      "goals": [
+        "Find effective emotional support",
+        "Recommend the app to others"
+      ],
+      "pain_points": [
+        "Difficulty finding reliable support",
+        "Struggling with negative thoughts"
+      ],
+      "context": "Mia is a young adult dealing with personal relationships and self-care.",
+      "constraints": [
+        "Limited budget",
+        "Prefers anonymous support"
+      ],
+      "evidence_reviews": [
+        "affective actually free unlike apps love",
+        "wish everyone tried app would truly wish everyone world would even one day would without doubt something would make anyone feel better felt thank creating app hopefully reach many anyone could hope thank time passion helped today hope many others reach unexpectedly manifesting real please try smile"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "description": "A user who compares the app to other services and seeks more features.",
+      "derived_from_group": 4,
+      "goals": [
+        "Compare the app to other services",
+        "Find more features and improvements"
+      ],
+      "pain_points": [
+        "Difficulty finding comprehensive support",
+        "Seeking more features"
+      ],
+      "context": "David is a busy professional dealing with work-related stress and self-care.",
+      "constraints": [
+        "Limited time",
+        "Prefers comprehensive support"
+      ],
+      "evidence_reviews": [
+        "need companion help deal emotion daily highly recommend app",
+        "like ai chat frustrated feel like talking circle"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sophia",
+      "description": "A user who desires more features and improvements from the app.",
+      "derived_from_group": 5,
+      "goals": [
+        "Find more features and improvements",
+        "Enhance the app's functionality"
+      ],
+      "pain_points": [
+        "Seeking more features and improvements",
+        "Difficulty finding comprehensive support"
+      ],
+      "context": "Sophia is a young adult dealing with personal relationships and self-care.",
+      "constraints": [
+        "Limited budget",
+        "Prefers comprehensive support"
+      ],
+      "evidence_reviews": [
+        "absolutely amazing stuff cbt tool super helpful dealing inner conflict used app five min far felt immediate impact highly encourage others try",
+        "wish everyone tried app would truly wish everyone world would even one day would without doubt something would make anyone feel better felt thank creating app hopefully reach many anyone could hope thank time passion helped today hope many others reach unexpectedly manifesting real please try smile"
+      ]
+    }
+  ]
+}
